@@ -190,7 +190,7 @@ class: text-center
 
 <ul class="text-left">
 <li v-click>Standard Docker doesn't support CUDA </li>
-<li v-click>CUDA driver needs to match the hardware, use <code>nvidia-docker</code></li>
+<li v-click>CUDA driver needs to match the hardware, use <code>nvidia-container-toolkit</code> to run on GPU</li>
 <li v-click> Security models assumes root privileges</li>
 <li v-click>Limited support for network communication and diskless nodes in HPC</li>
 
