@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /docker_huggingface_erc2024/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
